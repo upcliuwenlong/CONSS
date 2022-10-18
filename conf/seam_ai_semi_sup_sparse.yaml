@@ -1,0 +1,24 @@
+train:
+  max_epoch: 8
+  classes: 6
+  lr: 0.001
+  smooth_factor: 0.1
+  dir_suffix: seam_ai_semi_sup_sparse
+  contra_loss: True
+  contrastive:
+    aug_mode: cutmix
+    weak_threshold: 0.7
+    strong_threshold: 0.9
+    num_negatives: 128
+    num_queries: 128
+    temperature: 0.5
+valid:
+  metric: Mean IoU
+dataset:
+  name: seam_ai_semi
+  data_path: /volume/dataset/seam_ai/data_train.npz
+  labels_path: /volume/dataset/seam_ai/labels_train.npz
+  sparse: False
+  slice_width: 256
+  batch_size: 2
+  sampling_pos: [0,100,200,300,400,500,589]
