@@ -66,8 +66,8 @@ We give the results of ablation experiments and the weight of the model.
   | ConSemiSup w/o SDA      | 84.11 | 88.12 | 78.25          | 86.62 | [Google Drive](https://drive.google.com/file/d/1iFyiui7ocGH2yJ6TkVgUVr58cTteM0aw/view?usp=sharing) |
   | SparseConSemiSup w/ SDA | 92.60 | 93.55 | 87.56(+5.11)   | 92.99 | [Google Drive](https://drive.google.com/file/d/1uD7tOlKe0FV5BZ9o2w2kB2l95pFev1qv/view?usp=sharing) |
   | ConSemiSup w/ SDA       | 92.43 | 93.74 | $87.66(+5.21)$ | 93.03 | [Google Drive](https://drive.google.com/file/d/13BqmUan3Nz5yp6sGLaJn7m2FsBz0dJVq/view?usp=sharing) |
-  
-  ![image-20221005224703001](img/seam_ai_exp.png)
+
+![image-20221005224703001](img/seam_ai_exp.png)
 
 - Netherlands F3 Survey
   
@@ -78,8 +78,8 @@ We give the results of ablation experiments and the weight of the model.
   | ConSemiSup w/o SDA      | 89.59 | 93.33 | 84.54          | 91.15 | [Google Drive](https://drive.google.com/file/d/1PLOniLSe-I0DO7lrE_w66ufs3s7ZIGBn/view?usp=sharing) |
   | SparseConSemiSup w/ SDA | 94.25 | 95.04 | 89.43(+2.06)   | 94.28 | [Google Drive](https://drive.google.com/file/d/1DhuQ13wUIx0g7RS3VlOfNhmaR_elenL_/view?usp=sharing) |
   | ConSemiSup w/ SDA       | 95.25 | 95.43 | $90.83(+3.46)$ | 95.11 | [Google Drive](https://drive.google.com/file/d/10ctIe8v8TOIlfiwnfXe_doQr8BcWh8Gj/view?usp=sharing) |
-  
-  ![image-20221005224805335](img/f3_exp.png)
+
+![image-20221005224805335](img/f3_exp.png)
 
 ### Contact
 
