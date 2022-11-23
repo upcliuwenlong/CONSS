@@ -29,7 +29,7 @@ def eval(args):
     xticks = ['BO', 'SMA', 'MTD', 'SMB', 'SV', 'SCS']
     yticks = ['BO', 'SMA', 'MTD', 'SMB', 'SV', 'SCS']
     plt.figure(figsize=(9, 9), dpi=300)
-    ax = sns.heatmap(eval.confusion_matrix / eval.confusion_matrix.sum(axis=1),
+    ax = sns.heatmap(eval.confusion_matrix / eval.confusion_matrix.sum(axis=1).reshape(CLASSES,1),
                      annot=True,
                      fmt=".3f",
                      linewidths=2,
