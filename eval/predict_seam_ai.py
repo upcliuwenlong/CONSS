@@ -59,7 +59,7 @@ def predict(args):
         for y in range(labels_data.shape[2]):
             logger.info(f'step: {str(step)}, y: {str(y)}')
             img = all_data[:, input_x_start:input_x_end, y]
-            img = (img - 0.6766) / 390.3082
+            #img = (img - 0.6766) / 390.3082
             input = cv2.copyMakeBorder(img, 9, 9, 0, 0, cv2.BORDER_REPLICATE)
             # hw->chw
             input = np.expand_dims(input, 0)
@@ -86,7 +86,7 @@ def predict(args):
         input_x_end = labels_data.shape[1]
         logger.info(f'step: {str(step + 1)}, y: {str(y)}')
         img = all_data[:, input_x_start:input_x_end, y]
-        img = (img - 0.6766) / 390.3082
+        #img = (img - 0.6766) / 390.3082
         input = cv2.copyMakeBorder(img, 9, 9, 0, 0, cv2.BORDER_REPLICATE)
         # hw->chw
         input = np.expand_dims(input, 0)
